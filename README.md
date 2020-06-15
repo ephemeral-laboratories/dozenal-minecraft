@@ -3,6 +3,24 @@ Dozenal Minecraft
 
 A crazy experiment of integrating dozenal support into Minecraft.
 
+What is Dozenal?
+----------------
+
+Dozenal is one of the popularised names for a positional number system using twelve
+as the base. Proponents of the dozenal system claim that it is superior to decimal
+because many common fractions are more neatly represented in dozenal.
+
+For example:
+
+* 1/3 = 0.4
+* 1/4 = 0.3
+* 1/5 = 0.<span style="text-decoration:overline;">2497</span>
+* 1/6 = 0.2
+
+For this project I intend to use the Unicode ↊ for ten/dec and ↋ for eleven/el,
+though with slightly modified glyphs to fit the artwork I use elsewhere.
+
+
 Design Outline
 --------------
 
