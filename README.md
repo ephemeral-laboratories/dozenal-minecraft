@@ -14,7 +14,7 @@ For example:
 
 * 1/3 = 0.4
 * 1/4 = 0.3
-* 1/5 = 0.<span style="text-decoration:overline;">2497</span>
+* 1/5 = 0.24972497...
 * 1/6 = 0.2
 
 For this project I intend to use the Unicode ↊ for ten/dec and ↋ for eleven/el,
