@@ -75,3 +75,10 @@ Changes to Forge are so far not dozenal-specific.
 https://github.com/ephemeral-laboratories/FTB-Library
 
 Relevant branch: [1.12-dozenal](https://github.com/ephemeral-laboratories/FTB-Library/tree/1.12-dozenal)
+
+#### JustEnoughItems (JEI)
+
+https://github.com/ephemeral-laboratories/JustEnoughItems
+
+Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/JustEnoughItems/tree/1.12-i18n-fixes)
+
