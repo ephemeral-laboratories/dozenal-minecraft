@@ -67,3 +67,11 @@ Forge is one of the platforms for modding Minecraft.
 Relevant branch: [1.12.x-i18n-fixes](https://github.com/ephemeral-laboratories/MinecraftForge/tree/1.12.x-i18n-fixes)
 
 Changes to Forge are so far not dozenal-specific.
+
+### Mods
+
+#### FTB Library
+
+https://github.com/ephemeral-laboratories/FTB-Library
+
+Relevant branch: [1.12-dozenal](https://github.com/ephemeral-laboratories/FTB-Library/tree/1.12-dozenal)
