@@ -100,3 +100,8 @@ https://github.com/ephemeral-laboratories/JustEnoughItems
 
 Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/JustEnoughItems/tree/1.12-i18n-fixes)
 
+#### Quark
+
+https://github.com/ephemeral-laboratories/Quark
+
+Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/Quark/tree/1.12-i18n-fixes)
