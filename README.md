@@ -111,3 +111,9 @@ Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/Qua
 https://github.com/ephemeral-laboratories/refinedstorage
 
 Relevant branch: [mc1.12-dozenal](https://github.com/ephemeral-laboratories/refinedstorage/tree/mc1.12-dozenal)
+
+#### Storage Drawers
+
+https://github.com/ephemeral-laboratories/StorageDrawers
+
+Relevant branch: [1.12-dozenal](https://github.com/ephemeral-laboratories/StorageDrawers/tree/1.12-dozenal)
