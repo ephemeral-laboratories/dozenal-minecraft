@@ -105,3 +105,9 @@ Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/Jus
 https://github.com/ephemeral-laboratories/Quark
 
 Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/Quark/tree/1.12-i18n-fixes)
+
+#### Refined Storage
+
+https://github.com/ephemeral-laboratories/refinedstorage
+
+Relevant branch: [mc1.12-dozenal](https://github.com/ephemeral-laboratories/refinedstorage/tree/mc1.12-dozenal)
