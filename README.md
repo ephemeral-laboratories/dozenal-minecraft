@@ -88,6 +88,12 @@ Changes to Forge are so far not dozenal-specific.
 
 ### Mods
 
+#### AppleSkin
+
+https://github.com/ephemeral-laboratories/AppleSkin
+
+Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/AppleSkin/tree/1.12-i18n-fixes)
+
 #### FTB Library
 
 https://github.com/ephemeral-laboratories/FTB-Library
