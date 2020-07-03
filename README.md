@@ -100,6 +100,12 @@ https://github.com/ephemeral-laboratories/Botania
 
 Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/Botania/tree/1.12-i18n-fixes)
 
+#### Chisels & Bits
+
+https://github.com/ephemeral-laboratories/Chisels-and-Bits
+
+Relevant branch: [1.12-dozenal](https://github.com/ephemeral-laboratories/Chisels-and-Bits/tree/1.12-dozenal)
+
 #### CodeChickenLib
 
 https://github.com/ephemeral-laboratories/CodeChickenLib
