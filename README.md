@@ -100,6 +100,12 @@ https://github.com/ephemeral-laboratories/Botania
 
 Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/Botania/tree/1.12-i18n-fixes)
 
+#### CodeChickenLib
+
+https://github.com/ephemeral-laboratories/CodeChickenLib
+
+Relevant branch: [1.12.x-dozenal](https://github.com/ephemeral-laboratories/CodeChickenLib/tree/1.12.x-dozenal)
+
 #### FTB Library
 
 https://github.com/ephemeral-laboratories/FTB-Library
