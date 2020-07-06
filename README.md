@@ -70,11 +70,14 @@ So the basic outline of how this can work is:
 The Code
 --------
 
-The repository you are currently looking at is intended as a central point to keep
-track of the project as a whole. The actual changes are in the relevant repository
-for each respective change.
+This repository contains the source for a single mod, which is to provide
+support for rendering the additional Unicode characters. It is also used as
+a central point to keep track of the project as a whole.
 
-I will list these repositories here.
+The bulk of the actual changes are in the relevant repository for each
+respective change.
+
+I will list these repositories below.
 
 ### Minecraft Forge
 
