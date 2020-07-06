@@ -144,3 +144,18 @@ Relevant branch: [mc1.12-dozenal](https://github.com/ephemeral-laboratories/refi
 https://github.com/ephemeral-laboratories/StorageDrawers
 
 Relevant branch: [1.12-dozenal](https://github.com/ephemeral-laboratories/StorageDrawers/tree/1.12-dozenal)
+
+Building this Mod
+-----------------
+
+Prerequisites for running the build:
+
+* `JAVA_HOME` is set and points to a JDK 8 installation.
+  The build will not work on newer versions!
+* Nothing else? Not to my knowledge, anyway. Gradle should set up the rest.
+
+To build and test in a client:
+
+```
+gradlew runClient
+```
