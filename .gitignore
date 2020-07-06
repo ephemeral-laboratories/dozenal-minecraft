@@ -1,2 +1,11 @@
 
+# IDEA
 .idea/
+out/
+
+# Gradle
+.gradle/
+build/
+
+# Forge
+run/
