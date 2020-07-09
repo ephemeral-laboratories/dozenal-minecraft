@@ -18,7 +18,7 @@ gradlew setup
 ```
 	
 Docs for IDEA setup:
-https://mcforge.readthedocs.io/en/1.12.x/forgedev/
+https://mcforge.readthedocs.io/en/1.15.x/forgedev/
 
 Traps:
 
@@ -49,9 +49,9 @@ Branches
 --------
 
 Branch with none of our changes:
-[1.12.x](https://github.com/ephemeral-laboratories/MinecraftForge/tree/1.12.x)
+[1.15.x](https://github.com/ephemeral-laboratories/MinecraftForge/tree/1.15.x)
 
 Branch with the changes on it:
-[1.12.x-i18n-fixes](https://github.com/ephemeral-laboratories/MinecraftForge/tree/1.12.x-i18n-fixes)
+[1.15.x-i18n-fixes](https://github.com/ephemeral-laboratories/MinecraftForge/tree/1.15.x-i18n-fixes)
 
 So far this branch contains nothing dozenal-specific

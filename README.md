@@ -21,6 +21,23 @@ For this project I intend to use the Unicode ↊ for ten/dec and ↋ for eleven/
 though with slightly modified glyphs to fit the artwork I use elsewhere.
 
 
+Getting it Running
+------------------
+
+I'll try to reduce the number of steps required over time, but here's the instructions
+to get up and running at present:
+
+1. Install latest [Java 8](https://www.java.com/en/download/)
+2. Download the latest release of the
+   [dozenal locale provider](https://github.com/ephemeral-laboratories/dozenal/releases),
+   and place this inside the Java install directory, under `jre/lib/ext`.
+   This won't break your existing Java applications as we'll set a very specific locale
+   to actually activate dozenal formatting
+3. Install [MultiMC](https://multimc.org/)
+4. Download the latest modpack zip from
+   [here](https://github.com/ephemeral-laboratories/dozenal-minecraft/releases)
+
+
 Design Outline
 --------------
 
@@ -70,9 +87,10 @@ So the basic outline of how this can work is:
 The Code
 --------
 
-This repository contains the source for a single mod, which is to provide
-support for rendering the additional Unicode characters. It is also used as
-a central point to keep track of the project as a whole.
+This repository contains a resource pack which adds the missing glyphs to
+Minecraft's font, both to the standard font and the legacy Unicode page.
+
+It is also used as a central point to keep track of the project as a whole.
 
 The bulk of the actual changes are in the relevant repository for each
 respective change.
@@ -85,68 +103,13 @@ https://github.com/ephemeral-laboratories/MinecraftForge
 
 Forge is one of the platforms for modding Minecraft.
 
-Relevant branch: [1.12.x-i18n-fixes](https://github.com/ephemeral-laboratories/MinecraftForge/tree/1.12.x-i18n-fixes)
+Relevant branch: [1.15.x-i18n-fixes](https://github.com/ephemeral-laboratories/MinecraftForge/tree/1.15.x-i18n-fixes)
 
 Changes to Forge are so far not dozenal-specific.
 
-### Mods
 
-#### AppleSkin
-
-https://github.com/ephemeral-laboratories/AppleSkin
-
-Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/AppleSkin/tree/1.12-i18n-fixes)
-
-#### Botania
-
-https://github.com/ephemeral-laboratories/Botania
-
-Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/Botania/tree/1.12-i18n-fixes)
-
-#### Chisels & Bits
-
-https://github.com/ephemeral-laboratories/Chisels-and-Bits
-
-Relevant branch: [1.12-dozenal](https://github.com/ephemeral-laboratories/Chisels-and-Bits/tree/1.12-dozenal)
-
-#### CodeChickenLib
-
-https://github.com/ephemeral-laboratories/CodeChickenLib
-
-Relevant branch: [1.12.x-dozenal](https://github.com/ephemeral-laboratories/CodeChickenLib/tree/1.12.x-dozenal)
-
-#### FTB Library
-
-https://github.com/ephemeral-laboratories/FTB-Library
-
-Relevant branch: [1.12-dozenal](https://github.com/ephemeral-laboratories/FTB-Library/tree/1.12-dozenal)
-
-#### JustEnoughItems (JEI)
-
-https://github.com/ephemeral-laboratories/JustEnoughItems
-
-Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/JustEnoughItems/tree/1.12-i18n-fixes)
-
-#### Quark
-
-https://github.com/ephemeral-laboratories/Quark
-
-Relevant branch: [1.12-i18n-fixes](https://github.com/ephemeral-laboratories/Quark/tree/1.12-i18n-fixes)
-
-#### Refined Storage
-
-https://github.com/ephemeral-laboratories/refinedstorage
-
-Relevant branch: [mc1.12-dozenal](https://github.com/ephemeral-laboratories/refinedstorage/tree/mc1.12-dozenal)
-
-#### Storage Drawers
-
-https://github.com/ephemeral-laboratories/StorageDrawers
-
-Relevant branch: [1.12-dozenal](https://github.com/ephemeral-laboratories/StorageDrawers/tree/1.12-dozenal)
-
-Building this Mod
------------------
+Building this Resource Pack
+---------------------------
 
 Prerequisites for running the build:
 
@@ -154,8 +117,10 @@ Prerequisites for running the build:
   The build will not work on newer versions!
 * Nothing else? Not to my knowledge, anyway. Gradle should set up the rest.
 
-To build and test in a client:
+To build:
 
 ```
-gradlew runClient
+gradlew build
 ```
+
+This will produce a distribution in `build/dist` which is a standard Minecraft resource pack.

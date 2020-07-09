@@ -2,6 +2,8 @@
 Mod List
 ========
 
+***Note: This list is deprecated since the move to 1.15. Included mods to be decided.***
+
 List of mods intended for the Ephemeral Garden modpack:
 
 * A Block of Charcoal
