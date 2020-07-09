@@ -36,7 +36,9 @@ to get up and running at present:
 3. Install [MultiMC](https://multimc.org/)
 4. Download the latest modpack zip from
    [here](https://github.com/ephemeral-laboratories/dozenal-minecraft/releases)
-
+5. In MultiMC, Add Instance, import from zip. Edit instance, check that the Java installation
+   is the one you set earlier. The arguments to pass to the JVM should already be present
+   in the text area below that.
 
 Design Outline
 --------------
