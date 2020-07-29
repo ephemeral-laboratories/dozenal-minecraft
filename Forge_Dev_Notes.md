@@ -6,11 +6,20 @@ Dev Environment Setup
 
 Environmental prerequisites for the build to work correctly:
 
+Windows:
+
 ```cmd
-set JAVA_HOME=c:\Program Files\Java\jdk1.8.0_241
+set JAVA_HOME=c:\Program Files\Java\jdk1.8.0_261
 set PATH=%JAVA_HOME%\bin;%PATH%
 ```
-	
+
+macOS:
+
+```sh
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home"
+export PATH="$JAVA_HOME/bin:$PATH"
+```
+
 Initial setup:
 
 ```cmd
@@ -43,6 +52,37 @@ If the change is in the code for Minecraft itself:
     ```
 
 4. Commit the patch files which are created.
+
+
+Pulling Upstream Changes
+------------------------
+
+Assuming the remote is set up:
+
+```cmd
+git remote add upstream https://github.com/MinecraftForge/MinecraftForge
+```
+
+Pull upstream changes into local 1.15.x branch:
+
+```cmd
+git checkout 1.15.x
+git pull --ff-only upstream 1.15.x
+git push
+```
+
+Reapply changes on development branch on top of the 1.15.x branch:
+
+```cmd
+git checkout 1.15.x-i18n-fixes
+git rebase 1.15.x
+```
+
+And when you're happy:
+
+```cmd
+git push --force
+```
 
 
 Branches
