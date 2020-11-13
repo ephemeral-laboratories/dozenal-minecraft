@@ -29,15 +29,14 @@ If you customised your Java install for the previous versions, it should do no h
 since we're not setting the custom locale anymore either.
 
 1. Install [MultiMC](https://multimc.org/)
-2. Fetch and build [the dozenal mod](https://github.com/ephemeral-laboratories/dozenal-mod)
-   (This step will get easier in the future)
-3. In MultiMC, Add Instance, create a new Minecraft 1.16.3 instance on latest working
-   version of Forge
-4. Add the dozenal mod jar as a "loader mod"
-5. Add whatever other mods you want, and you're done
+2. Fetch latest dozenal-mod from [releases](https://github.com/ephemeral-laboratories/dozenal-mod/releases)
+3. In MultiMC, Add Instance, create a new Minecraft 1.16.3 or 1.16.4 instance
+4. Under Versions, add latest working version of Forge
+5. Under Loader Mods, add the dozenal mod jar
+6. Add whatever other mods you want, and you're done
 
 My own pack will eventually have other mods which are being tracked
 [on Google Docs](https://docs.google.com/spreadsheets/d/1sh5RcOECH2EJV4eUeANybXl3Mpj6RwGJvizY_Tls07E/edit#gid=0)
 
-This repository will remain as the place to release packs but I currently have
+This repository will remain as the place to release packs, but I currently have
 no automated process for doing so.
